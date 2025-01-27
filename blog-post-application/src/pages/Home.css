@@ -1,0 +1,54 @@
+.homepage-container{
+    padding: 20px;
+}
+
+.home-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-card-button{
+    background-color: rgb(120, 235, 241);
+    border-radius: 5px;
+    border-style: none;
+}
+
+.new-card-button:hover{
+    cursor: pointer;
+}
+.bottom-button:hover{
+    cursor: pointer;
+}
+
+.card-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    border: 1px solid black;
+    margin: 5px;
+    font-size: 10px;
+    height: 200px;
+    margin-top: 20px;
+    background-color: rgb(232, 230, 228);
+}
+
+.bottom-button{
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: rgb(147, 147, 162);
+    border-radius: 5px;
+    border-style: none;
+
+}
+
+.search{
+    border-style: none;
+    background-color: rgb(198, 204, 204);
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+}

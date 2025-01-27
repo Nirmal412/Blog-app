@@ -1,0 +1,29 @@
+.card-container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.post-card{
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: baseline;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(232, 230, 228);
+    
+}
+
+.post-card input{
+    border-style: none;
+    height: 30px;
+}
+.post-card-input{
+    margin: 10px 0px;
+    
+}
